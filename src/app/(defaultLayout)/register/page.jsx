@@ -22,16 +22,17 @@ const page = () => {
                         <div className=' px-5'>
                             <form onSubmit={handleSubmit(onSubmit)} >
 
-                               
+                                <input type='text' placeholder='your name' className='w-full py-3 my-4 px-5  rounded-md outline-none shadow-xl' {...register("name")} />
                                 <input type='email' placeholder='your name' className='w-full py-3 my-4 px-5  rounded-md outline-none shadow-xl' {...register("email")} />
                                 <input type='password' placeholder='your name' className='w-full py-3 my-4 px-5  rounded-md outline-none shadow-xl' {...register("password")} />
-                                
+                                <input type='password' placeholder='your name' className='w-full py-3 my-4 px-5  rounded-md outline-none shadow-xl' {...register("confirm")} />
+                                <input type='file' placeholder='choose file' className='  rounded-md my-4 px-5  outline-none shadow-xl' {...register("photo")} />
 
                                 <div className='flex justify-center  items-center align-middle'>
-                                    <Link href='/register' className=' underline'>Please Register</Link>
+                                    <Link href='/login' className=' underline'>Please login</Link>
                                 </div>
                                 <div className=' flex justify-center items-center align-middle'>
-                                       <button type='submit' className='py-2 px-10 rounded-md border my-5 border-red-200 hover:bg-[#F7A582] hover:text-white'>Login</button>
+                                       <button type='submit' className='py-2 px-10 rounded-md border my-5 border-red-200 hover:bg-[#F7A582] hover:text-white'>Registration</button>
                                 </div>
                             </form>
                         </div>

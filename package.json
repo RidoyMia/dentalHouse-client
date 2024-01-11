@@ -9,9 +9,12 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@react-icons/all-files": "^4.1.0",
     "next": "14.0.4",
     "react": "^18",
     "react-dom": "^18",
+    "react-hook-form": "^7.49.2",
+    "react-icons": "^5.0.1",
     "react-router-dom": "^6.21.1"
   },
   "devDependencies": {
