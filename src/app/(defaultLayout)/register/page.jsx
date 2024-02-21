@@ -23,9 +23,9 @@ const page = () => {
                             <form onSubmit={handleSubmit(onSubmit)} >
 
                                 <input type='text' placeholder='your name' className='w-full py-3 my-4 px-5  rounded-md outline-none shadow-xl' {...register("name")} />
-                                <input type='email' placeholder='your name' className='w-full py-3 my-4 px-5  rounded-md outline-none shadow-xl' {...register("email")} />
-                                <input type='password' placeholder='your name' className='w-full py-3 my-4 px-5  rounded-md outline-none shadow-xl' {...register("password")} />
-                                <input type='password' placeholder='your name' className='w-full py-3 my-4 px-5  rounded-md outline-none shadow-xl' {...register("confirm")} />
+                                <input type='email' placeholder='your Email' className='w-full py-3 my-4 px-5  rounded-md outline-none shadow-xl' {...register("email")} />
+                                <input type='password' placeholder='Password' className='w-full py-3 my-4 px-5  rounded-md outline-none shadow-xl' {...register("password")} />
+                                <input type='password' placeholder='again' className='w-full py-3 my-4 px-5  rounded-md outline-none shadow-xl' {...register("confirm")} />
                                 <input type='file' placeholder='choose file' className='  rounded-md my-4 px-5  outline-none shadow-xl' {...register("photo")} />
 
                                 <div className='flex justify-center  items-center align-middle'>
